@@ -23,7 +23,7 @@
     console.log('ml5 version:', ml5.version);
   
   //Inicializa o método Image Classifier com MobileNet
-  classifier = ml5.imageClassifier('https://teachablemachine.withgoogle.com/models/1hUIbBCiE/model.json',modelLoaded);
+  classifier = ml5.imageClassifier('???/model.json',modelLoaded);
   
     
     function modelLoaded() {
